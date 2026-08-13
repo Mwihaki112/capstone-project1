@@ -20,7 +20,6 @@ services:
     name: bloodlink-frontend
     runtime: static
     rootDir: BloodLink/Frontend
-    plan: free
 
     buildCommand: npm install && npm run build
     staticPublishPath: dist
